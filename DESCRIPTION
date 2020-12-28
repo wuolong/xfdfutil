@@ -1,0 +1,17 @@
+Package: xfdfutil
+Title: Functions for PDF Annotation XFDF Files
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Na (Michael)",
+           family = "Li",
+           role = c("aut", "cre"),
+           email = "wuolong@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0002-7709-5664"))
+Depends: R (>= 3.1.0), xml2 (>= 1.3), magrittr (>= 1.5), xlsx (>= 0.6)
+Description: This packages contains two functions to facilitate PDF
+    annotation. One converts the XFDF file to Excel and the other does the
+    inverse.
+License: GPL (>= 2)
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
